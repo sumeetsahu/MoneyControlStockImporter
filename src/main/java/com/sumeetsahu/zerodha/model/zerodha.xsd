@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xs:schema [
+  <!ELEMENT xs:schema (xs:element)*>
+  <!ATTLIST xs:schema
+    attributeFormDefault CDATA #REQUIRED
+    elementFormDefault CDATA #REQUIRED
+    xmlns:xs CDATA #REQUIRED>
+  <!ELEMENT xs:element (xs:complexType)*>
+  <!ATTLIST xs:element
+    maxOccurs CDATA #IMPLIED
+    name CDATA #REQUIRED
+    type CDATA #IMPLIED>
+  <!ELEMENT xs:complexType (xs:sequence|xs:attribute)*>
+  <!ATTLIST xs:complexType
+    mixed CDATA #IMPLIED>
+  <!ELEMENT xs:sequence (xs:element)*>
+  <!ELEMENT xs:attribute (#PCDATA)>
+  <!ATTLIST xs:attribute
+    name CDATA #REQUIRED
+    type CDATA #REQUIRED
+    use CDATA #REQUIRED>
+  ]>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="contract_note">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="contracts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="contract">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="id" type="xs:string"/>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="description" type="xs:string"/>
+                    <xs:element name="timestamp" type="xs:date"/>
+                    <xs:element name="issuer">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string"/>
+                          <xs:element name="image" type="xs:string"/>
+                          <xs:element name="locations">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="location">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element name="name" type="xs:string"/>
+                                      <xs:element name="contact_person" type="xs:string"/>
+                                      <xs:element name="description" type="xs:string"/>
+                                      <xs:element name="address">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="address_line1" type="xs:string"/>
+                                            <xs:element name="address_line2" type="xs:string"/>
+                                            <xs:element name="city" type="xs:string"/>
+                                            <xs:element name="state" type="xs:string"/>
+                                            <xs:element name="pincode" type="xs:unsignedInt"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="phone" type="xs:string"/>
+                                      <xs:element name="email" type="xs:string"/>
+                                      <xs:element name="website" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="identities">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="identity">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="name" type="xs:string"/>
+                                      <xs:element name="value" type="xs:string"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="client">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string"/>
+                          <xs:element name="address" type="xs:string"/>
+                          <xs:element name="state" type="xs:string"/>
+                          <xs:element name="identities">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="identity">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="name" type="xs:string"/>
+                                      <xs:element name="value" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="segment_id" type="xs:string"
+                                      use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="exchanges">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="exchange">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="name" type="xs:string"/>
+                                <xs:element name="id" type="xs:string"/>
+                                <xs:element name="segments">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="segment">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="name" type="xs:string"/>
+                                            <xs:element name="id" type="xs:string"/>
+                                            <xs:element name="settlements">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="settlement">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element name="id"
+                                                          type="xs:unsignedInt"/>
+                                                        <xs:element name="timestamp"
+                                                          type="xs:string"/>
+                                                      </xs:sequence>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="instruments">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="instrument">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="id" type="xs:string"/>
+                                <xs:element name="tradingsymbol" type="xs:string"/>
+                                <xs:element name="description" type="xs:string"/>
+                              </xs:sequence>
+                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="trades">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="trade">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="id" type="xs:unsignedInt"/>
+                                <xs:element name="order_id" type="xs:unsignedLong"/>
+                                <xs:element name="timestamp" type="xs:time"/>
+                                <xs:element name="description" type="xs:string"/>
+                                <xs:element name="exchange" type="xs:string"/>
+                                <xs:element name="type" type="xs:string"/>
+                                <xs:element name="quantity" type="xs:short"/>
+                                <xs:element name="average_price" type="xs:decimal"/>
+                                <xs:element name="value" type="xs:decimal"/>
+                                <xs:element name="charges">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="charge">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="id" type="xs:string"/>
+                                            <xs:element name="name" type="xs:string"/>
+                                            <xs:element name="description" type="xs:string"/>
+                                            <xs:element name="type" type="xs:string"/>
+                                            <xs:element name="value" type="xs:string"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
+                              <xs:attribute name="instrument_id" type="xs:string" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="posititions"/>
+                    <xs:element name="totals">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="subtotals">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="charges">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element maxOccurs="unbounded" name="charge">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="id"/>
+                                            <xs:element name="name" type="xs:string"/>
+                                            <xs:element name="description" type="xs:string"/>
+                                            <xs:element name="type" type="xs:string"/>
+                                            <xs:element name="value" type="xs:decimal"/>
+                                          </xs:sequence>
+                                          <xs:attribute name="segment_id" type="xs:string"
+                                            use="required"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="grandtotals">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="grandtotal">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="name" type="xs:string"/>
+                                      <xs:element name="description" type="xs:string"/>
+                                      <xs:element name="type" type="xs:string"/>
+                                      <xs:element name="value" type="xs:decimal"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
