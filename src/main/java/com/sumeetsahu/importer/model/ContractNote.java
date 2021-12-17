@@ -1,7 +1,7 @@
 package com.sumeetsahu.importer.model;
 
-import com.sumeetsahu.zerodha.model.ContractNote.Contracts.Contract.Totals.Subtotals.Charges.Charge;
-import com.sumeetsahu.zerodha.model.ContractNote.Contracts.Contract.Trades.Trade;
+import com.sumeetsahu.zerodha.model.ZerodhaContractNote.Contracts.Contract.Totals.Subtotals.Charges.Charge;
+import com.sumeetsahu.zerodha.model.ZerodhaContractNote.Contracts.Contract.Trades.Trade;
 import java.util.List;
 import lombok.NonNull;
 import lombok.Value;
