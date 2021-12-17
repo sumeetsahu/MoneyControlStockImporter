@@ -20,10 +20,11 @@
     type CDATA #REQUIRED
     use CDATA #REQUIRED>
   ]>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+  elementFormDefault="qualified">
   <xs:element name="contract_note">
     <xs:complexType>
+      <xs:attribute name="version" type="xs:decimal" use="required"/>
       <xs:sequence>
         <xs:element name="contracts">
           <xs:complexType>
@@ -97,12 +98,12 @@
                               <xs:sequence>
                                 <xs:element maxOccurs="unbounded" name="identity">
                                   <xs:complexType>
+                                    <xs:attribute name="segment_id" type="xs:string"
+                                      use="optional"/>
                                     <xs:sequence>
                                       <xs:element name="name" type="xs:string"/>
                                       <xs:element name="value" type="xs:string"/>
                                     </xs:sequence>
-                                    <xs:attribute name="segment_id" type="xs:string"
-                                      use="optional"/>
                                   </xs:complexType>
                                 </xs:element>
                               </xs:sequence>
@@ -160,12 +161,12 @@
                         <xs:sequence>
                           <xs:element name="instrument">
                             <xs:complexType>
+                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
                               <xs:sequence>
                                 <xs:element name="id" type="xs:string"/>
                                 <xs:element name="tradingsymbol" type="xs:string"/>
                                 <xs:element name="description" type="xs:string"/>
                               </xs:sequence>
-                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
                             </xs:complexType>
                           </xs:element>
                         </xs:sequence>
@@ -176,6 +177,8 @@
                         <xs:sequence>
                           <xs:element maxOccurs="unbounded" name="trade">
                             <xs:complexType>
+                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
+                              <xs:attribute name="instrument_id" type="xs:string" use="required"/>
                               <xs:sequence>
                                 <xs:element name="id" type="xs:unsignedInt"/>
                                 <xs:element name="order_id" type="xs:unsignedLong"/>
@@ -204,8 +207,6 @@
                                   </xs:complexType>
                                 </xs:element>
                               </xs:sequence>
-                              <xs:attribute name="segment_id" type="xs:string" use="required"/>
-                              <xs:attribute name="instrument_id" type="xs:string" use="required"/>
                             </xs:complexType>
                           </xs:element>
                         </xs:sequence>
@@ -223,6 +224,8 @@
                                     <xs:sequence>
                                       <xs:element maxOccurs="unbounded" name="charge">
                                         <xs:complexType>
+                                          <xs:attribute name="segment_id" type="xs:string"
+                                            use="required"/>
                                           <xs:sequence>
                                             <xs:element name="id"/>
                                             <xs:element name="name" type="xs:string"/>
@@ -230,8 +233,6 @@
                                             <xs:element name="type" type="xs:string"/>
                                             <xs:element name="value" type="xs:decimal"/>
                                           </xs:sequence>
-                                          <xs:attribute name="segment_id" type="xs:string"
-                                            use="required"/>
                                         </xs:complexType>
                                       </xs:element>
                                     </xs:sequence>
@@ -266,7 +267,6 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-      <xs:attribute name="version" type="xs:decimal" use="required"/>
     </xs:complexType>
   </xs:element>
 </xs:schema>
