@@ -1,0 +1,5351 @@
+<contract_note version="0.1">
+  <contracts>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021186</id>
+                  <timestamp>01-10-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-123093368</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-10-01</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>1.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>0.55</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>393.43</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.02</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.1</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>395.11</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.1</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.02</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>393.43</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>1.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>0.55</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:GOLDBEES" segment_id="NSE-EQ ">
+          <average_price>40.18</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>28959164</id>
+          <order_id>1100000013583430</order_id>
+          <quantity>-59</quantity>
+          <timestamp>12:39:30</timestamp>
+          <type>sell</type>
+
+          <value>-2370.62</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:NIFTYBEES" segment_id="NSE-EQ ">
+          <average_price>188.62</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>53072193</id>
+          <order_id>1200000013267937</order_id>
+          <quantity>-12</quantity>
+          <timestamp>12:39:30</timestamp>
+          <type>sell</type>
+
+          <value>-2263.44</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:JUNIORBEES" segment_id="NSE-EQ ">
+          <average_price>441.4</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>53072192</id>
+          <order_id>1200000013267936</order_id>
+          <quantity>-9</quantity>
+          <timestamp>12:39:30</timestamp>
+          <type>sell</type>
+
+          <value>-3972.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:LIQUIDBEES" segment_id="NSE-EQ ">
+          <average_price>1000.01</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>53072373</id>
+          <order_id>1200000013269386</order_id>
+          <quantity>9</quantity>
+          <timestamp>12:39:32</timestamp>
+          <type>buy</type>
+
+          <value>9000.09</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021197</id>
+                  <timestamp>19-10-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-136747896</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-10-19</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.47</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>49544.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>50.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.27</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>49602.79</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>50.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.27</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.47</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>49544.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:TCS" segment_id="NSE-EQ ">
+          <average_price>3673.5</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79483242</id>
+          <order_id>1300000013700044</order_id>
+          <quantity>1</quantity>
+          <timestamp>11:13:11</timestamp>
+          <type>buy</type>
+
+          <value>3673.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>850.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79483244</id>
+          <order_id>1300000013700047</order_id>
+          <quantity>13</quantity>
+          <timestamp>11:13:11</timestamp>
+          <type>buy</type>
+
+          <value>11050.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TCS" segment_id="NSE-EQ ">
+          <average_price>3673.5</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79483243</id>
+          <order_id>1300000013700044</order_id>
+          <quantity>3</quantity>
+          <timestamp>11:13:11</timestamp>
+          <type>buy</type>
+
+          <value>11020.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>850.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79483245</id>
+          <order_id>1300000013700047</order_id>
+          <quantity>20</quantity>
+          <timestamp>11:13:11</timestamp>
+          <type>buy</type>
+
+          <value>17000.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>850.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79483246</id>
+          <order_id>1300000013700047</order_id>
+          <quantity>8</quantity>
+          <timestamp>11:13:11</timestamp>
+          <type>buy</type>
+
+          <value>6800.0</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021198</id>
+                  <timestamp>20-10-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-137475607</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-10-20</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.44</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>48833.35</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>49.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.26</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>48891.11</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>48833.35</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>49.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.44</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.26</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>839.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78824145</id>
+          <order_id>1300000012264741</order_id>
+          <quantity>41</quantity>
+          <timestamp>11:06:04</timestamp>
+          <type>buy</type>
+
+          <value>34421.55</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TCS" segment_id="NSE-EQ ">
+          <average_price>3602.95</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78824143</id>
+          <order_id>1300000012264736</order_id>
+          <quantity>4</quantity>
+          <timestamp>11:06:04</timestamp>
+          <type>buy</type>
+
+          <value>14411.8</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021209</id>
+                  <timestamp>04-11-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-149308228</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-11-04</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>1.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>0.16</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>4941.3</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>5.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.03</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>4947.5</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>1.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>5.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.03</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>4941.3</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>0.16</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:HDFCBANK" segment_id="NSE-EQ ">
+          <average_price>1595.45</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>26197259</id>
+          <order_id>1100000002243716</order_id>
+          <quantity>2</quantity>
+          <timestamp>18:42:20</timestamp>
+          <type>buy</type>
+
+          <value>3190.9</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:INOXLEISUR" segment_id="NSE-EQ ">
+          <average_price>437.6</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>26197260</id>
+          <order_id>1100000002243717</order_id>
+          <quantity>4</quantity>
+          <timestamp>18:42:20</timestamp>
+          <type>buy</type>
+
+          <value>1750.4</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021215</id>
+                  <timestamp>15-11-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-155469749</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-11-15</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.23</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>44768.3</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>45.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.04</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.22</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>44821.81</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.04</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>44768.3</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.22</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>45.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.23</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>596.95</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79469363</id>
+          <order_id>1300000013819299</order_id>
+          <quantity>16</quantity>
+          <timestamp>14:20:15</timestamp>
+          <type>buy</type>
+
+          <value>9551.2</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>596.9</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79469361</id>
+          <order_id>1300000013819299</order_id>
+          <quantity>44</quantity>
+          <timestamp>14:20:15</timestamp>
+          <type>buy</type>
+
+          <value>26263.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>596.9</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79469362</id>
+          <order_id>1300000013819299</order_id>
+          <quantity>15</quantity>
+          <timestamp>14:20:15</timestamp>
+          <type>buy</type>
+
+          <value>8953.5</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021216</id>
+                  <timestamp>16-11-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-156536220</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-11-16</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.26</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>45909.35</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>46.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.23</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>45963.9</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>45909.35</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>46.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.26</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.23</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>612.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78530414</id>
+          <order_id>1300000010875149</order_id>
+          <quantity>23</quantity>
+          <timestamp>12:10:48</timestamp>
+          <type>buy</type>
+
+          <value>14078.3</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>612.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78530415</id>
+          <order_id>1300000010875149</order_id>
+          <quantity>15</quantity>
+          <timestamp>12:10:48</timestamp>
+          <type>buy</type>
+
+          <value>9181.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>612.15</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78530416</id>
+          <order_id>1300000010875149</order_id>
+          <quantity>37</quantity>
+          <timestamp>12:10:48</timestamp>
+          <type>buy</type>
+
+          <value>22649.55</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021217</id>
+                  <timestamp>17-11-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-157581491</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-11-17</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>8.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.46</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>51164.75</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>51.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.26</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>51225.53</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.46</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>51.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>51164.75</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.26</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>8.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>838.4</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78336504</id>
+          <order_id>1300000010126620</order_id>
+          <quantity>20</quantity>
+          <timestamp>12:04:24</timestamp>
+          <type>buy</type>
+
+          <value>16768.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>607.2</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78336507</id>
+          <order_id>1300000010126630</order_id>
+          <quantity>20</quantity>
+          <timestamp>12:04:24</timestamp>
+          <type>buy</type>
+
+          <value>12144.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TCS" segment_id="NSE-EQ ">
+          <average_price>3537.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78336505</id>
+          <order_id>1300000010126623</order_id>
+          <quantity>2</quantity>
+          <timestamp>12:04:24</timestamp>
+          <type>buy</type>
+
+          <value>7074.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>607.15</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78336506</id>
+          <order_id>1300000010126630</order_id>
+          <quantity>25</quantity>
+          <timestamp>12:04:24</timestamp>
+          <type>buy</type>
+
+          <value>15178.75</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021220</id>
+                  <timestamp>23-11-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-161030113</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-11-23</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.42</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>49903.2</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>50.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.26</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>49961.94</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.26</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>49903.2</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.42</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>50.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>819.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113343</id>
+          <order_id>1300000017508508</order_id>
+          <quantity>2</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>1639.1</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>819.45</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113341</id>
+          <order_id>1300000017508508</order_id>
+          <quantity>8</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>6555.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>819.45</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113342</id>
+          <order_id>1300000017508508</order_id>
+          <quantity>5</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>4097.25</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>819.35</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113339</id>
+          <order_id>1300000017508508</order_id>
+          <quantity>2</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>1638.7</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TATACONSUM" segment_id="NSE-EQ ">
+          <average_price>819.35</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113340</id>
+          <order_id>1300000017508508</order_id>
+          <quantity>3</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>2458.05</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SYNGENE" segment_id="NSE-EQ ">
+          <average_price>590.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113345</id>
+          <order_id>1300000017508523</order_id>
+          <quantity>45</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>26554.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:TCS" segment_id="NSE-EQ ">
+          <average_price>3480.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>80113338</id>
+          <order_id>1300000017508505</order_id>
+          <quantity>2</quantity>
+          <timestamp>13:55:57</timestamp>
+          <type>buy</type>
+
+          <value>6960.0</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021231</id>
+                  <timestamp>08-12-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-172334351</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-12-08</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>15.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>4.65</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>63718.4</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>143.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.14</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.84</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>63882.04</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>63718.4</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.84</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>4.65</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>15.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.14</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>143.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1880.75</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78207029</id>
+          <order_id>1300000012086281</order_id>
+          <quantity>-2</quantity>
+          <timestamp>12:50:00</timestamp>
+          <type>sell</type>
+
+          <value>-3761.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1883.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78223560</id>
+          <order_id>1300000012146964</order_id>
+          <quantity>-17</quantity>
+          <timestamp>12:51:31</timestamp>
+          <type>sell</type>
+
+          <value>-32011.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1883.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>78223561</id>
+          <order_id>1300000012146964</order_id>
+          <quantity>-2</quantity>
+          <timestamp>12:51:31</timestamp>
+          <type>sell</type>
+
+          <value>-3766.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>753.7</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>28650875</id>
+          <order_id>1100000011519121</order_id>
+          <quantity>137</quantity>
+          <timestamp>12:55:07</timestamp>
+          <type>buy</type>
+
+          <value>103256.9</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021232</id>
+                  <timestamp>09-12-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-173335579</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-12-09</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>16.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>5.41</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>37135.75</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>170.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.17</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.98</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>37328.31</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>5.41</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.17</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>37135.75</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>170.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.98</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>16.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1900.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>77250636</id>
+          <order_id>1300000007725032</order_id>
+          <quantity>-8</quantity>
+          <timestamp>10:53:18</timestamp>
+          <type>sell</type>
+
+          <value>-15204.4</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1901.25</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>77263789</id>
+          <order_id>1300000007771257</order_id>
+          <quantity>-6</quantity>
+          <timestamp>10:54:15</timestamp>
+          <type>sell</type>
+
+          <value>-11407.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1903.15</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>77283795</id>
+          <order_id>1300000007824221</order_id>
+          <quantity>-10</quantity>
+          <timestamp>10:55:29</timestamp>
+          <type>sell</type>
+
+          <value>-19031.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1902.05</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>77300940</id>
+          <order_id>1300000007866680</order_id>
+          <quantity>-8</quantity>
+          <timestamp>10:56:22</timestamp>
+          <type>sell</type>
+
+          <value>-15216.4</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1902.2</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>77310944</id>
+          <order_id>1300000007893372</order_id>
+          <quantity>-3</quantity>
+          <timestamp>10:56:54</timestamp>
+          <type>sell</type>
+
+          <value>-5706.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>756.95</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>27211824</id>
+          <order_id>1100000007475877</order_id>
+          <quantity>137</quantity>
+          <timestamp>11:03:40</timestamp>
+          <type>buy</type>
+
+          <value>103702.15</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021233</id>
+                  <timestamp>10-12-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-174787266</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-12-10</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>0.21</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>-7726.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>8.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.04</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>-7717.78</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>8.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>-7726.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>0.21</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.04</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1931.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>76312789</id>
+          <order_id>1300000004825058</order_id>
+          <quantity>-1</quantity>
+          <timestamp>10:05:13</timestamp>
+          <type>sell</type>
+
+          <value>-1931.55</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:WHIRLPOOL" segment_id="NSE-EQ ">
+          <average_price>1931.5</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>76312790</id>
+          <order_id>1300000004825058</order_id>
+          <quantity>-3</quantity>
+          <timestamp>10:05:13</timestamp>
+          <type>sell</type>
+
+          <value>-5794.5</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021236</id>
+                  <timestamp>15-12-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-177421135</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-12-15</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>10.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>2.57</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>49582.25</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>79.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.08</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.46</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>49674.37</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.08</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>2.57</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>10.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>49582.25</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>79.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.46</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>754.2</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>26345620</id>
+          <order_id>1100000004982785</order_id>
+          <quantity>66</quantity>
+          <timestamp>10:17:02</timestamp>
+          <type>buy</type>
+
+          <value>49777.2</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:KSCL" segment_id="NSE-EQ ">
+          <average_price>503.35</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>53875514</id>
+          <order_id>1200000014941797</order_id>
+          <quantity>-3</quantity>
+          <timestamp>14:31:51</timestamp>
+          <type>sell</type>
+
+          <value>-1510.05</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:FDC" segment_id="NSE-EQ ">
+          <average_price>292.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29040356</id>
+          <order_id>1100000014136294</order_id>
+          <quantity>-4</quantity>
+          <timestamp>14:31:51</timestamp>
+          <type>sell</type>
+
+          <value>-1168.4</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:FDC" segment_id="NSE-EQ ">
+          <average_price>292.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29040355</id>
+          <order_id>1100000014136294</order_id>
+          <quantity>-2</quantity>
+          <timestamp>14:31:51</timestamp>
+          <type>sell</type>
+
+          <value>-584.2</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AARTIDRUGS" segment_id="NSE-EQ ">
+          <average_price>552.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3305046</id>
+          <order_id>1000000013997278</order_id>
+          <quantity>-6</quantity>
+          <timestamp>14:31:51</timestamp>
+          <type>sell</type>
+
+          <value>-3312.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:FDC" segment_id="NSE-EQ ">
+          <average_price>292.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29040357</id>
+          <order_id>1100000014136294</order_id>
+          <quantity>-5</quantity>
+          <timestamp>14:31:51</timestamp>
+          <type>sell</type>
+
+          <value>-1460.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:LUXIND" segment_id="NSE-EQ ">
+          <average_price>3739.95</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>53875837</id>
+          <order_id>1200000014942848</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:31:54</timestamp>
+          <type>buy</type>
+
+          <value>3739.95</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AEGISCHEM" segment_id="NSE-EQ ">
+          <average_price>226.9</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3305370</id>
+          <order_id>1000000013998449</order_id>
+          <quantity>5</quantity>
+          <timestamp>14:31:54</timestamp>
+          <type>buy</type>
+
+          <value>1134.5</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:INTELLECT" segment_id="NSE-EQ ">
+          <average_price>692.2</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29040671</id>
+          <order_id>1100000014137384</order_id>
+          <quantity>3</quantity>
+          <timestamp>14:31:54</timestamp>
+          <type>buy</type>
+
+          <value>2076.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AEGISCHEM" segment_id="NSE-EQ ">
+          <average_price>226.9</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3305369</id>
+          <order_id>1000000013998449</order_id>
+          <quantity>4</quantity>
+          <timestamp>14:31:54</timestamp>
+          <type>buy</type>
+
+          <value>907.6</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:IGL" segment_id="NSE-EQ ">
+          <average_price>500.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29128582</id>
+          <order_id>1100000014427168</order_id>
+          <quantity>-4</quantity>
+          <timestamp>14:39:17</timestamp>
+          <type>sell</type>
+
+          <value>-2000.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SUPREMEIND" segment_id="NSE-EQ ">
+          <average_price>2363.8</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79359350</id>
+          <order_id>1300000017106531</order_id>
+          <quantity>-1</quantity>
+          <timestamp>14:39:17</timestamp>
+          <type>sell</type>
+
+          <value>-2363.8</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:HEROMOTOCO" segment_id="NSE-EQ ">
+          <average_price>2518.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>29128583</id>
+          <order_id>1100000014427169</order_id>
+          <quantity>-1</quantity>
+          <timestamp>14:39:17</timestamp>
+          <type>sell</type>
+
+          <value>-2518.55</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:SUPPETRO" segment_id="NSE-EQ ">
+          <average_price>738.4</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79359666</id>
+          <order_id>1300000017107895</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:39:19</timestamp>
+          <type>buy</type>
+
+          <value>738.4</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AVANTIFEED" segment_id="NSE-EQ ">
+          <average_price>543.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3381594</id>
+          <order_id>1000000014284777</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:39:19</timestamp>
+          <type>buy</type>
+
+          <value>543.55</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:THYROCARE" segment_id="NSE-EQ ">
+          <average_price>1064.95</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>79359673</id>
+          <order_id>1300000017107905</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:39:19</timestamp>
+          <type>buy</type>
+
+          <value>1064.95</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AMBUJACEM" segment_id="NSE-EQ ">
+          <average_price>381.1</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3381595</id>
+          <order_id>1000000014284785</order_id>
+          <quantity>2</quantity>
+          <timestamp>14:39:19</timestamp>
+          <type>buy</type>
+
+          <value>762.2</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:AVANTIFEED" segment_id="NSE-EQ ">
+          <average_price>543.55</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3381593</id>
+          <order_id>1000000014284777</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:39:19</timestamp>
+          <type>buy</type>
+
+          <value>543.55</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:ALKYLAMINE" segment_id="NSE-EQ ">
+          <average_price>3211.25</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>3446529</id>
+          <order_id>1000000014492923</order_id>
+          <quantity>1</quantity>
+          <timestamp>14:45:52</timestamp>
+          <type>buy</type>
+
+          <value>3211.25</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+    <contract>
+      <client>
+        <address>
+          CUSTOMER ADDRESS
+        </address>
+        <identities>
+          <identity>
+            <name>PAN</name>
+            <value>PANSS0000A</value>
+          </identity>
+
+          <identity segment_id="Equity / Derivatives">
+            <name>UCC</name>
+            <value>AA0000</value>
+          </identity>
+
+        </identities>
+        <name>CUSTOMER NAME</name>
+        <state>None</state>
+      </client>
+      <description>None</description>
+      <exchanges>
+
+        <exchange>
+          <id>NSE</id>
+          <name>NSE (National Stock Exchange)</name>
+          <segments>
+            <segment>
+              <id>NSE</id>
+              <name>NSE Equity</name>
+              <settlements>
+                <settlement>
+                  <id>2021237</id>
+                  <timestamp>16-12-2021</timestamp>
+                </settlement>
+              </settlements>
+            </segment>
+          </segments>
+        </exchange>
+
+      </exchanges>
+
+      <id>CNT-21/22-178432364</id>
+
+      <instruments>
+        <instrument segment_id="">
+          <description>None</description>
+          <id>None</id>
+          <tradingsymbol>None</tradingsymbol>
+        </instrument>
+      </instruments>
+
+      <issuer>
+        <identities>
+          <identity>
+            <name>SEBI REGISTRATION NO</name>
+            <value>INZ000031633</value>
+          </identity>
+          <identity>
+            <name>PAN of Trading Member</name>
+            <value>AABCZ2616B</value>
+          </identity>
+          <identity>
+            <name>GSTIN of trading Member</name>
+            <value>29AABCZ2616B1ZK</value>
+          </identity>
+          <identity>
+            <name>CIN</name>
+            <value>U65929KA2018PLC116815</value>
+          </identity>
+          <identity>
+            <name>Description of Service</name>
+            <value>Brokerage and related securities and commodities services including
+              commodity exchange services
+            </value>
+          </identity>
+          <identity>
+            <name>Accounting code of services</name>
+            <value>997152</value>
+          </identity>
+
+        </identities>
+        <image>https://zerodha.com//static/images/logo.svg</image>
+        <locations>
+          <location>
+            <address>
+              <address_line1>#153/154 , 4TH CROSS, JP NAGAR 4TH PHASE,</address_line1>
+              <address_line2>DOLLARS COLONY</address_line2>
+              <city>BANGALORE</city>
+              <pincode>560078</pincode>
+              <state>KARNATAKA</state>
+            </address>
+            <contact_person>Venu Madhav K.S</contact_person>
+            <description>None</description>
+            <email>complaints@zerodha.com</email>
+            <name>ZERODHA</name>
+            <phone>080 4718 1888</phone>
+            <website>www.zerodha.com</website>/
+          </location>
+        </locations>
+        <name>ZERODHA</name>
+      </issuer>
+
+      <name>CONTRACT NOTE CUM BILL</name>
+
+      <posititions>
+
+      </posititions>
+
+      <timestamp>2021-12-16</timestamp>
+
+      <totals>
+        <grandtotals>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Stamp Duty</name>
+            <type>Charge</type>
+            <value>7.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Transaction Charges</name>
+            <type>Charge</type>
+            <value>1.71</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Exchange Obligation Account</name>
+            <type>Obligation</type>
+            <value>49632.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Central GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Securities Transaction Tax</name>
+            <type>Tax</type>
+            <value>50.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>SEBI Turnover Fees</name>
+            <type>Charge</type>
+            <value>0.05</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Clearing Charges</name>
+            <type>Charge</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Brokerage</name>
+            <type>Charge</type>
+            <value>0.01</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Integrated GST</name>
+            <type>Tax</type>
+            <value>0.31</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>State GST</name>
+            <type>Tax</type>
+            <value>0.0</value>
+          </grandtotal>
+
+          <grandtotal>
+            <description>None</description>
+            <name>Net amount Receivable by Client / (Payable by Client)</name>
+            <type>Net</type>
+            <value>49691.08</value>
+          </grandtotal>
+
+        </grandtotals>
+
+        <subtotals>
+
+
+          <charges>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Clearing Charges</name>
+              <type>Charge</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Brokerage</name>
+              <type>Charge</type>
+              <value>0.01</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Central GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Stamp Duty</name>
+              <type>Charge</type>
+              <value>7.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>SEBI Turnover Fees</name>
+              <type>Charge</type>
+              <value>0.05</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Integrated GST</name>
+              <type>Tax</type>
+              <value>0.31</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Securities Transaction Tax</name>
+              <type>Tax</type>
+              <value>50.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Transaction Charges</name>
+              <type>Charge</type>
+              <value>1.71</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>Exchange Obligation Account</name>
+              <type>Obligation</type>
+              <value>49632.0</value>
+            </charge>
+
+
+            <charge segment_id="NSE-EQ ">
+              <description>None</description>
+              <id></id>
+              <name>State GST</name>
+              <type>Tax</type>
+              <value>0.0</value>
+            </charge>
+
+          </charges>
+
+        </subtotals>
+      </totals>
+
+      <trades>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>752.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>25540003</id>
+          <order_id>1100000001746139</order_id>
+          <quantity>13</quantity>
+          <timestamp>09:26:15</timestamp>
+          <type>buy</type>
+
+          <value>9776.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>752.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>25540002</id>
+          <order_id>1100000001746139</order_id>
+          <quantity>4</quantity>
+          <timestamp>09:26:15</timestamp>
+          <type>buy</type>
+
+          <value>3008.0</value>
+        </trade>
+
+
+        <trade instrument_id="NSE:ICICIBANK" segment_id="NSE-EQ ">
+          <average_price>752.0</average_price>
+          <charges>
+            <charge>
+              <description>None</description>
+              <id>None</id>
+              <name>None</name>
+              <type>None</type>
+              <value>None</value>
+            </charge>
+          </charges>
+          <description>None</description>
+          <exchange>NSE</exchange>
+          <id>25540001</id>
+          <order_id>1100000001746139</order_id>
+          <quantity>49</quantity>
+          <timestamp>09:26:15</timestamp>
+          <type>buy</type>
+
+          <value>36848.0</value>
+        </trade>
+
+      </trades>
+    </contract>
+
+  </contracts>
+</contract_note>
