@@ -25,7 +25,7 @@ public class zerodhaXmlReader implements XmlReader {
   public List<ContractNote> read() {
     ZerodhaContractNote zerodhaContactNote;
     try {
-      JAXBContext jaxbContext = JAXBContext.newInstance(ContractNote.class);
+      JAXBContext jaxbContext = JAXBContext.newInstance(ZerodhaContractNote.class);
       Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
       zerodhaContactNote = (ZerodhaContractNote) jaxbUnmarshaller.unmarshal(new File(path));
     } catch (JAXBException e) {
