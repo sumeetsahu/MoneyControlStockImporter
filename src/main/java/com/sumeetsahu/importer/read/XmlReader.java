@@ -4,5 +4,5 @@ import com.sumeetsahu.importer.model.ContractNote;
 import java.util.List;
 
 public interface XmlReader {
-  List<ContractNote> read();
+  List<ContractNote> read() throws Throwable;
 }

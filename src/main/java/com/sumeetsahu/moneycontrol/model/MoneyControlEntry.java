@@ -1,6 +1,10 @@
 package com.sumeetsahu.moneycontrol.model;
 
+import com.sumeetsahu.importer.model.ContractNote;
+import com.sumeetsahu.zerodha.model.ZerodhaContractNote;
+import java.math.BigDecimal;
 import java.time.LocalDate;
+import lombok.Builder;
 import lombok.NonNull;
 import lombok.Value;
 
@@ -9,6 +13,7 @@ import lombok.Value;
 // Charges (All Charges other than brokerage charges)	Service Tax/GST	STT	Exchange Charges	Stamp
 // Duty	SEBI Charges
 @Value
+@Builder(toBuilder = true)
 public class MoneyControlEntry {
 
   @NonNull String isinCode;
@@ -16,19 +21,21 @@ public class MoneyControlEntry {
   @NonNull LocalDate date;
   @NonNull TransactionType transactionType;
   @NonNull Exchange exchange;
-  @NonNull Integer Quantity;
-  @NonNull Long pricePerShare;
-  Integer totalAmount;
-  Integer netAmount;
+  @NonNull Integer quantity;
+  @NonNull BigDecimal pricePerShare;
+  BigDecimal totalAmount;
+  BigDecimal totalCharges;
+  BigDecimal netAmount;
   String note;
   String orderId;
   String transactionId;
   String contractNoteId;
-  Long brokerage;
-  Long otherCharges;
-  Long serviceTax;
-  Long stt;
-  Long exchangeCharge;
-  Long stampDuty;
-  Long sebiCharges;
+  BigDecimal brokerage;
+  BigDecimal otherCharges;
+  BigDecimal serviceTax;
+  BigDecimal stt;
+  BigDecimal exchangeCharge;
+  BigDecimal stampDuty;
+  BigDecimal sebiCharges;
+  @NonNull ContractNote contractNotePayLoad;
 }
